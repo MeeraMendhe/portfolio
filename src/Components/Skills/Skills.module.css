@@ -1,0 +1,17 @@
+.mid
+{
+  text-align: center;
+  padding:20px;
+}
+.color
+{
+    color:#d1b561;
+    width:100px;
+    height: 50px;
+}
+.flex
+{
+    display: flex;
+    margin-left: 22%;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+.img {
+  width: 70px;
+  height: 70px;
+}
+.flex {
+  display: flex;
+}
+.margin {
+  margin-left: 28%;
+  margin-top: 0.5%;
+}
+.left {
+  margin-left: 5%;
+  margin-top: 0.5%;
+}
+.margin:hover {
+  color: #d1b561;
+}
+.left:hover {
+  color: #d1b561;
+}
+.icon {
+  margin-left: 28%;
+}
+.width {
+  width: 60px;
+  height: 60px;
+  margin-top: 2%;
+}
+.width:hover {
+  color: #d1b561;
+}
+@media (max-width: 900px) {
+  .margin {
+    margin-top: 0.5%;
+    margin-left: 5%;
+  }
+  .icon {
+    margin-left: 5%;
+  }
+}

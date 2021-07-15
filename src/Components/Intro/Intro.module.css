@@ -1,0 +1,34 @@
+.color
+{
+    color:#d1b561;
+    margin-left: 15%;
+    margin-top:7%;
+}
+.fontS{
+    margin-left: 15%;
+    font-size: 60px;
+    margin-top: -10px;
+}
+.fontS2{
+    margin-left: 15%;
+    font-size: 60px;
+    margin-top: -50px;
+}
+.left
+{
+    margin-left: 15%;
+    width:50%;
+    line-height: 30px;
+}
+.btn
+{
+    margin-left: 15%;
+    height:60px;
+    width:200px;
+    border: 1px solid #d1b561;
+    color:#d1b561;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,255);
+    font-size: 18px;
+    margin-top: 3%;
+}
