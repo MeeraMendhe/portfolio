@@ -2,15 +2,10 @@ import React from 'react'
 import styled from "./Project.module.css"
 import { AiFillGithub } from "react-icons/ai";
 import { BiLink } from "react-icons/bi";
-//import {  Redirect } from 'react-router-dom';
 
 const Project = () => {
-    // const handleClick=()=>
-    // {
-    //     <Redirect to="https://github.com/vinayak-pk/airbnb-clone"/> 
-    // }
   return (
-    <div>
+    <div id="project">
       <h1 className={styled.mid}>Projects</h1>
       <div className={styled.width}>
           <div className={styled.left}>
@@ -26,8 +21,8 @@ const Project = () => {
               </div>
               <h5>NodeJS || React || MongoDb || Redux || Express || Material UI</h5>
               <div className={styled.flex}>
-               <AiFillGithub className={styled.size}/>
-                  <BiLink className={styled.size} />
+                 <a className={styled.size}href="https://github.com/vinayak-pk/airbnb-clone"> <AiFillGithub className={styled.size}/></a>
+                 <a className={styled.size} href="https://clone-airbnb-green.vercel.app/"> <BiLink className={styled.size} /></a>
               </div>
           </div>
       </div>
@@ -45,8 +40,8 @@ const Project = () => {
               </div>
               <h5>React || Redux || JSON server || FireBase || Thunk</h5>
               <div className={styled.flex}>
-                  <AiFillGithub className={styled.size}/>
-                  <BiLink className={styled.size} />
+                  <a href="https://github.com/TusharTaral/naukri-clone" className={styled.size}> <AiFillGithub className={styled.size}/></a>
+                  <a href="https://intense-taiga-94146.herokuapp.com/" className={styled.size}><BiLink className={styled.size} /> </a>
               </div>
           </div>
       </div>

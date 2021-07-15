@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "./About.module.css"
 const About = () => {
   return (
-    <div className={styled.flex}>
+    <div id="about" className={styled.flex}>
       <div className={styled.div1}>
           <h1>About Me</h1>
           <p>I'm a highly resourceful and passionate Software Engineer and well-rounded IT Professional possessing expert knowledge of the Software Development lifecycle and a solid understanding of technologies required for the development and deployment of highly available and scalable applications, including their networks and infrastructure.</p>

@@ -10,7 +10,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <h1 className={styled.mid}>Skills</h1>
        <div   className={styled.flex}>
          <div>

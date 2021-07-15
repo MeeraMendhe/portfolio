@@ -1,17 +1,28 @@
+.flex {
+  display: flex;
+  
+}
+.main
+{
+  position:fixed;
+  width:100%;
+  height: 110px;
+  margin-top: -110px;
+  background-color: rgba(0,0,0,255);
+}
 .img {
   width: 70px;
   height: 70px;
 }
-.flex {
-  display: flex;
-}
 .margin {
   margin-left: 28%;
-  margin-top: 0.5%;
+  margin-top: 30px;
+  font-weight: bold;
 }
 .left {
   margin-left: 5%;
-  margin-top: 0.5%;
+  margin-top: 30px;
+  font-weight: bold;
 }
 .margin:hover {
   color: #d1b561;

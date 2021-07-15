@@ -11,7 +11,7 @@
 }
 .img
 {
-    width:120%;
+    width:100%;
     height:80%;
     border-radius: 20px;
     margin-top:10%;
@@ -54,6 +54,7 @@
     height:40px;
     width: 40px;
     margin-left: 20px;
+    color:whitesmoke
 }
 .size:hover
 {

@@ -1,0 +1,29 @@
+.mid
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.flex
+{
+    display: flex;
+}
+.btn
+{
+    margin-left: 15%;
+    height:60px;
+    width:200px;
+    border: 1px solid #d1b561;
+    color:#d1b561;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,255);
+    font-size: 18px;
+    margin-top:4%;
+    margin-bottom: 10%;
+}
+.img
+{
+    width:350px;
+    height:350px;
+    margin-top: -100px;
+    margin-left: 20%;
+}

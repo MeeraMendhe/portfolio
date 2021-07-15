@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "./Contact.module.css"
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <h1 className={styled.h1}>Contact Form</h1>
       <div>
       <input className={styled.color} placeholder="First Name" type="text"/>

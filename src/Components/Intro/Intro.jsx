@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "./Intro.module.css"
 const Intro = () => {
   return (
-    <div>
+    <div id="intro">
       <h3 className={styled.color}>Hi, My Name Is</h3>
       <p className={styled.fontS}>Meera Mendhe</p>
        <p className={styled.fontS2}>Full Stack Web Developer</p>
