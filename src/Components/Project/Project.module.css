@@ -29,7 +29,6 @@
 .box {
   width: 95%;
   margin-left: 10%;
-  height: 30%;
   border-radius: 20px;
   background-color: rgba(45, 40, 40, 255);
   padding-right: 10px;
@@ -50,6 +49,28 @@
 }
 .size:hover {
   color: #d1b561;
+}
+.btn
+{
+    margin-left: 15%;
+    height:60px;
+    width:200px;
+    padding:20px;
+    border: 1px solid #d1b561;
+    color:#d1b561;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,255);
+    font-size: 18px;
+    margin-top:30px;
+}
+.background
+{
+  width:50%;
+  background-color: rgba(0,0,0,255);
+  color:whitesmoke;
+  margin:auto;
+  margin-top: 15%;
+  padding: 20px;
 }
 @media (max-width: 900px) {
   .width {

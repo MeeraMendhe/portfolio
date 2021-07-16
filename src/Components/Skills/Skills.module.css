@@ -13,13 +13,18 @@
   margin-left: 22%;
   padding-bottom: 20px;
 }
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .flex {
     margin-left:40%;
+    display:unset;
   }
   .mid {
     text-align:left;
     padding: 20px;
     margin-top: -10px;
+    margin-left:40%;
   }
-} */
+  .color {
+    margin-left:40%;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './About/About'
 import Contact from './Contact/Contact'
+import Email from './Email/Email'
 import Intro from './Intro/Intro'
 import Navbar from './Navbar/Navbar'
 import Project from './Project/Project'
@@ -13,13 +14,14 @@ const Main = () => {
     
     <>
       <Navbar/>
-      <SideBar/>
+      <SideBar/>  
       <Intro/>
       <About/>
       <Skills/>
       <Project/>
       <Resume/>
       <Contact/>
+      <Email/>
     </>
   )
 }
