@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from "./Navbar.module.css"
 import {Link } from "react-scroll";
+import img from "../files/27938162.jpeg"
+
 const Navbar = () => {
   return (
     <div className={styled.main}>
  <div className={styled.flex}>
       <div>
-      <img className={styled.img} src="https://cdn3.vectorstock.com/i/1000x1000/81/62/letter-m-beauty-women-face-logo-design-vector-27938162.jpg" alt="logo"/>
+      <img className={styled.img} src={img} alt="logo"/>
       </div>
       <div className={styled.margin}>
       <Link to="about" hashSpy={true}

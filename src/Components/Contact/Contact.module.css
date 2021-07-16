@@ -8,7 +8,9 @@
     margin-left: 15%;
     height: 50px;
     margin-top: 2%;
-    
+    font-size: 18px;
+    font-weight: bold;
+    color:whitesmoke
 }
 .color1
 {
@@ -20,7 +22,9 @@
     margin-left:5%;
     height: 50px;
     margin-top: 2%;
-    
+    font-size: 18px;
+    font-weight: bold;
+    color:whitesmoke
 }
 .color2
 {
@@ -32,7 +36,9 @@
     margin-left: 15%;
     height: 50px;
     margin-top: 2%;
-    
+    font-size: 18px;
+    font-weight: bold;
+    color:whitesmoke
 }
 .color3
 {
@@ -44,7 +50,9 @@
     margin-top: 5%;
     padding-bottom: 30px;
     height: 200px;
-    
+    font-size: 18px;
+    font-weight: bold;
+    color:whitesmoke
 }
 .h1
 {

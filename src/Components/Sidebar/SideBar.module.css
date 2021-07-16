@@ -1,0 +1,19 @@
+.color
+{
+    color: #d1b561;
+    height: 50px;
+    width:50px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.fix{
+  position:fixed
+}
+.color1
+{
+    color: #d1b561;
+    height: 50px;
+    width:50px;
+    margin-top: 200px;
+    margin-left: 10px;
+}

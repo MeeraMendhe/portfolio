@@ -5,6 +5,7 @@ import Intro from './Intro/Intro'
 import Navbar from './Navbar/Navbar'
 import Project from './Project/Project'
 import Resume from './Resume/Resume'
+import SideBar from './Sidebar/SideBar'
 import Skills from './Skills/Skills'
 
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
     
     <>
       <Navbar/>
+      <SideBar/>
       <Intro/>
       <About/>
       <Skills/>
