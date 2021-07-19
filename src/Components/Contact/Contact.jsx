@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <form onSubmit={handleSubmit} id="contact">
       <h1 className={styled.h1}>Contact Form</h1>
-      <div>
+      <div className={styled.top}>
       <input className={styled.color} name="user_name" placeholder="Full Name" type="text" required/>
       <input className={styled.color1} name="contact_number" placeholder="Mobile Number" type="text" required/>
       </div>

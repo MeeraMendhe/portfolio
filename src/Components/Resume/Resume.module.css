@@ -6,6 +6,7 @@
 .flex
 {
     display: flex;
+    margin-top: 50px;
 }
 .btn
 {
@@ -28,6 +29,7 @@
     margin-left: 20%;
     margin-right: 10%;
 }
+
 @media (max-width: 900px) {
     .flex {
       display:unset;

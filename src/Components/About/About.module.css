@@ -20,6 +20,9 @@
   margin-left: 45%;
   margin-top: 18%;
 }
+.top{
+  margin-top: 50px;
+}
 @media (max-width: 900px) {
   .flex {
     display:unset;
