@@ -1,6 +1,7 @@
 .flex {
   display: flex;
   margin-top: 5%;
+  margin-bottom: 5%;
   
 }
 .div1 {
@@ -18,7 +19,7 @@
   height: 400px;
   border-radius: 20px;
   margin-left: 45%;
-  margin-top: 18%;
+  margin-top: 8%;
 }
 .top{
   margin-top: 50px;

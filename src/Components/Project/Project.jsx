@@ -78,6 +78,7 @@ const Project = () => {
           </div>
         </div>
       </div>
+      {/* ----project2 */}
       <div className={styled.width}>
         <div className={styled.left}>
           <img
@@ -134,6 +135,121 @@ const Project = () => {
               className={styled.size}
             >
               <BiLink className={styled.size} />{' '}
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* -------- project 3 */}
+      <div className={styled.width}>
+        <div className={styled.left}>
+          <img
+            className={styled.img}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZj7hHjLZJzM0ltri_8cMauWJzGVRXlKFfA&usqp=CAU"
+            alt="logo"
+          />
+        </div>
+        <div className={styled.right}>
+          <h4 className={styled.color}>Featured</h4>
+          <h2>Sudoku Solver</h2>
+          <div className={styled.box}>
+            <p>
+            Sudoku Solver is a Website that gives you the Solution of Every Sudoko Problem that you input and 
+              <p className={styled.blue} onClick={handleClick}>
+                Read More
+              </p>
+            </p>
+            <Modal className={styled.background} isOpen={isOpen}>
+              <h1>Sudoku Solver</h1>
+              <p>
+              Sudoku Solver is a Website that gives you the Solution of Every Sudoko Problem that you input and also you can visualize each step of how the sudoku is getting solved.
+              </p>
+              <p>
+                A website that allows users to solve any sudoku problem
+                <h3>
+                  {' '}
+                  Tech Stack: HTML, CSS, JavaScript
+                </h3>
+                Solo Project was done in 2 days.
+                <br />
+              </p>
+              <button onClick={() => setIsOpen(false)} className={styled.btn}>
+                Close
+              </button>
+            </Modal>
+          </div>
+          <h5>HTML || CSS || JavaScript</h5>
+          <div className={styled.flex}>
+            <a
+              className={styled.size}
+              href="https://github.com/MeeraMendhe/Sudoku"
+            >
+              {' '}
+              <AiFillGithub className={styled.size} />
+            </a>
+            <a
+              className={styled.size}
+              href="https://sudoku-game9.herokuapp.com/?"
+            >
+              <BiLink className={styled.size} />
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* ------ project 4 */}
+      <div className={styled.width}>
+        <div className={styled.left}>
+          <img
+            className={styled.img}
+            src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5e7d481d23b951f6d15b61f2_Screen%20Shot%202020-03-26%20at%205.25.44%20PM.png"
+            alt="logo"
+          />
+        </div>
+        <div className={styled.right}>
+          <h4 className={styled.color}>Featured</h4>
+          <h2>AirGarage</h2>
+          <div className={styled.box}>
+            <p>
+            AirGarage helps churches and small businesses generate extra funding and income by renting out their unused parking spaces
+              <p className={styled.blue} onClick={handleClick}>
+                Read More
+              </p>
+            </p>
+            <Modal className={styled.background} isOpen={isOpen}>
+              <h1>AirGarage</h1>
+              <p>
+              AirGarage helps churches and small businesses generate extra funding and income by renting out their unused parking spaces.
+              </p>
+              <p>
+                A website that allows users to rent or lease accommodation not
+                limited to bed and breakfasts, hostels, homestays, apartments,
+                rooms, or hotels.
+                <h3>
+                  {' '}
+                  Tech Stack: HTML, CSS, JavaScript
+                </h3>
+                A collaborative project in 5 days with 2 people
+                <br />
+                Roles & Responsibility: Make Navbar and Footer with responsive website.
+              </p>
+              <button onClick={() => setIsOpen(false)} className={styled.btn}>
+                Close
+              </button>
+            </Modal>
+          </div>
+          <h5>HTML || CSS || JavaScript</h5>
+          <div className={styled.flex}>
+            <a
+              className={styled.size}
+              href="https://github.com/MeeraMendhe/Airgarage"
+            >
+              {' '}
+              <AiFillGithub className={styled.size} />
+            </a>
+            <a
+              className={styled.size}
+              href="https://meeramendhe.github.io/Airgarage/"
+            >
+              <BiLink className={styled.size} />
             </a>
           </div>
         </div>
