@@ -28,15 +28,18 @@
 }
 .box {
   width: 95%;
-  margin-left: 10%;
+  margin-left: 7%;
   border-radius: 20px;
   background-color: rgba(45, 40, 40, 255);
-  padding-right: 10px;
   line-height: 25px;
   padding-top: 2px;
+  text-align:left;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }
 .blue {
   color: skyblue;
+  font-size: 14px;
 }
 .blue:hover {
   text-decoration: underline;

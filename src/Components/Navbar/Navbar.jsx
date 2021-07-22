@@ -11,12 +11,12 @@ const Navbar = () => {
       <img className={styled.img} src={img} alt="logo"/>
       </div>
       <div className={styled.margin}>
-      <Link to="about" hashSpy={true}
+      <Link to="intro" hashSpy={true}
               spy={true}
               smooth={true}
               delay={100}
               duration={500}
-              className={styled.margin}>About</Link>
+              className={styled.left}>About</Link>
       </div>
       <div className={styled.left}>
       <Link to="skills" hashSpy={true}
@@ -50,14 +50,7 @@ const Navbar = () => {
               duration={500}
               className={styled.left}>Resume</Link>
       </div>
-      <div className={styled.left}>
-      <Link to="intro" hashSpy={true}
-              spy={true}
-              smooth={true}
-              delay={100}
-              duration={500}
-              className={styled.left}>Introduction</Link>
-      </div>
+     
     </div>
     </div>
   )

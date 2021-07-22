@@ -4,6 +4,7 @@ import {Link } from "react-scroll";
 const Intro = () => {
   return (
     <div id="intro">
+      <h1 className={styled.h1}>About Me</h1>
       <h3 className={styled.color}>Hi, My Name Is</h3>
       <p className={styled.fontS}>Meera Mendhe</p>
        <p className={styled.fontS2}>Full Stack Web Developer</p>
