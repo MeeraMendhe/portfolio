@@ -1,19 +1,35 @@
-.mid {
+ .mid {
   text-align: center;
   padding: 20px;
   margin-top: -5px;
+
 }
 .color {
   color: #d1b561;
   width: 100px;
-  height: 50px;
+  height: 70px;
   margin-left: -3px;
 }
 .flex {
   display: flex;
-  margin-left: 22%;
+  margin-left: 20%;
   padding-bottom: 20px;
-  margin-top: 40px;
+  text-align: center;
+}
+.size
+{
+  width: 150px;
+  height: 120px;
+  text-align:center;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1b561;
+  transition: transform .2s;
+  margin:30px
+}
+.size:hover
+{
+  transform: scale(1.1);
 }
 @media (max-width: 900px) {
   .flex {
@@ -29,4 +45,5 @@
   .color {
     margin-left:40%;
   }
-}
+} 
+

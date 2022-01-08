@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "./About.module.css"
 import img from "../files/dp.jpeg"
+
 const About = () => {
   return (
     <div id="about" className={styled.flex}>

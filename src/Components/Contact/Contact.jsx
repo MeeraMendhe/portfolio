@@ -4,7 +4,9 @@ import emailjs from 'emailjs-com'
 import Modal from 'react-modal'
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false)
+
   const handleClick = () => {
+
     setIsOpen(true)
   }
   const handleSubmit = (e) => {
