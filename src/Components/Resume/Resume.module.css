@@ -35,5 +35,11 @@
       display:unset;
       margin-top: 30px;
     }
-
+    .img{
+        margin-left:5%;
+    }
+    .btn
+    {
+        margin-left:25%;
+    }
   }

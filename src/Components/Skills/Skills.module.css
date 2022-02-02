@@ -33,17 +33,16 @@
 }
 @media (max-width: 900px) {
   .flex {
-    margin-left:40%;
     display:unset;
   }
   .mid {
-    text-align:left;
+    text-align:center;
     padding: 20px;
     margin-top: -10px;
-    margin-left:40%;
   }
-  .color {
-    margin-left:40%;
+  .size{
+    margin-left: 30%;
   }
+
 } 
 

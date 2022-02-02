@@ -8,3 +8,9 @@
 {
     padding-bottom: 30px;
 }
+@media (max-width: 900px) {
+   .color{
+       text-align: center;
+       margin-left: 10%;
+   }
+}

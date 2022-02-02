@@ -35,5 +35,12 @@
   }
   .div2 {
     width: 30%;
+    margin-left:10%;
+  }
+  .img {
+    padding: 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
   }
 }
