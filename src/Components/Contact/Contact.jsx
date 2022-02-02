@@ -65,7 +65,7 @@ const Contact = () => {
           required
         />
       </div>
-      <button type="submit" onClick={handleClick} className={styled.btn}>
+      <button  type="submit" onClick={handleClick} className={styled.btn}>
         Send Message
       </button>
       <Modal className={styled.background} isOpen={isOpen}>
