@@ -44,17 +44,16 @@
   color: #d1b561;
 }
 @media (max-width: 900px) {
-  .main
+.main
 {
   position:fixed;
-  width:100%;
-  height: 110px;
-  margin-top: -110px;
+  width:93%;
+  height:110px;
   background-color: rgba(0,0,0,255);
 }
   .margin {
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 7.3%;
+    margin-left: -4%;
   }
   .icon {
     margin-left: 5%;
@@ -63,4 +62,11 @@
   {
     margin-top: 30px;
   }
+  .left
+  {
+    margin-left: 2%;
+  }
+ .flex>div:first-child{
+   margin-left:-5%;
+ }
 }

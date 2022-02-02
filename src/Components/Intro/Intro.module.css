@@ -44,3 +44,10 @@
     margin-top: 110px;
     margin-left: 15%;
 }
+@media (max-width: 900px) {
+    .fontS2{
+        margin-left: 15%;
+        font-size: 50px;
+        margin-top: -50px;
+    }
+}
