@@ -6,9 +6,10 @@ import Modal from 'react-modal'
 const Project = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [isOpen1, setIsOpen1] = useState(false)
-  const handleClick = () => {
-    setIsOpen(true)
-  }
+  const [isOpen2, setIsOpen2] = useState(false)
+  const [isOpen3, setIsOpen3] = useState(false)
+  const [isOpen4, setIsOpen4] = useState(false)
+  const [isOpen5, setIsOpen5] = useState(false)
   return (
     <div id="project">
       <h1 className={styled.mid}>Projects</h1>
@@ -27,7 +28,7 @@ const Project = () => {
             <p>
               Airbnb allows you to find places to stay directly from individuals
               in thousands of cities around the India.
-              <p className={styled.blue} onClick={handleClick}>
+              <p className={styled.blue} onClick={() => setIsOpen(true)}>
                 Read More
               </p>
             </p>
@@ -78,7 +79,63 @@ const Project = () => {
           </div>
         </div>
       </div>
-      {/* ----project2 */}
+         {/* ----project2 */}
+         <div className={styled.width}>
+        <div className={styled.left}>
+          <img
+            className={styled.img}
+            src="https://shop.stepupstudent.com/wp-content/uploads/2020/05/linkedin-lead-ninja.jpg"
+            alt="logo"
+          />
+        </div>
+        <div className={styled.right}>
+          <h4 className={styled.color}>Featured</h4>
+          <h2>LinkedIn</h2>
+          <div className={styled.box}>
+            <p>
+            This is the clone of LinkedIn, which is a web application primarily used for professional networking and career development.
+              <p onClick={() => setIsOpen1(true)}  className={styled.blue}>
+                Read More
+              </p>
+            </p>
+            <Modal className={styled.background} isOpen={isOpen1}>
+              <h1>LinkedIn</h1>
+              <p>
+              This is the clone of LinkedIn, which is a web application primarily used for professional networking and career development.
+              You can invite anyone to connect (and accept their invitations to connect with you), but they must have their own LinkedIn account to use the site. LinkedIn saves the connections that you make to a list called My Network.
+              </p>
+              <p>
+                
+LinkedIn enables you to network with people and professional organizations in your industry.
+                <h3> Tech Stack: React, Redux, Firebase, Styled-Components</h3>
+                A collaborative project in 5 days with 4<br />
+                people. Roles & Responsibility: Built a profile page of the
+                user. Get and Post and Update data of profile page using firebase.
+              </p>
+              <button onClick={() => setIsOpen1(false)} className={styled.btn}>
+                Close
+              </button>
+            </Modal>
+          </div>
+          <h5>React || Redux || Firebase || Styled-Components</h5>
+          <div className={styled.flex}>
+            <a
+              href="https://github.com/mehtab39/linkedin-clone-project"
+              className={styled.size}
+            >
+              {' '}
+              <AiFillGithub className={styled.size} />
+            </a>
+            <a
+              href="https://linkedin-production-app.web.app/"
+              className={styled.size}
+            >
+              <BiLink className={styled.size} />{' '}
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* ----project3 */}
       <div className={styled.width}>
         <div className={styled.left}>
           <img
@@ -95,11 +152,11 @@ const Project = () => {
               Naukri.com is a recruitment platform that provides hiring-related
               services to corporates/recruiters, placement agencies and to
               company.
-              <p onClick={() => setIsOpen1(true)} className={styled.blue}>
+              <p onClick={() => setIsOpen2(true)} className={styled.blue}>
                 Read More
               </p>
             </p>
-            <Modal className={styled.background} isOpen={isOpen1}>
+            <Modal className={styled.background} isOpen={isOpen2}>
               <h1>Naukri.com</h1>
               <p>
                 Naukri.com is a recruitment platform that provides
@@ -116,7 +173,7 @@ const Project = () => {
                 server. Built a host page to post jobs with all required
                 details. Built homepage with functionality.
               </p>
-              <button onClick={() => setIsOpen1(false)} className={styled.btn}>
+              <button onClick={() => setIsOpen2(false)} className={styled.btn}>
                 Close
               </button>
             </Modal>
@@ -139,7 +196,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      {/* -------- project 3 */}
+      {/* -------- project 4 */}
       <div className={styled.width}>
         <div className={styled.left}>
           <img
@@ -154,11 +211,11 @@ const Project = () => {
           <div className={styled.box}>
             <p>
             Sudoku Solver is a Website that gives you the Solution of Every Sudoko Problem that you input and 
-              <p className={styled.blue} onClick={handleClick}>
+              <p className={styled.blue} onClick={() => setIsOpen3(true)}>
                 Read More
               </p>
             </p>
-            <Modal className={styled.background} isOpen={isOpen}>
+            <Modal className={styled.background} isOpen={isOpen3}>
               <h1>Sudoku Solver</h1>
               <p>
               Sudoku Solver is a Website that gives you the Solution of Every Sudoko Problem that you input and also you can visualize each step of how the sudoku is getting solved.
@@ -172,7 +229,7 @@ const Project = () => {
                 Solo Project was done in 2 days.
                 <br />
               </p>
-              <button onClick={() => setIsOpen(false)} className={styled.btn}>
+              <button onClick={() => setIsOpen3(false)} className={styled.btn}>
                 Close
               </button>
             </Modal>
@@ -195,7 +252,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      {/* ------ project 4 */}
+      {/* ------ project 5 */}
       <div className={styled.width}>
         <div className={styled.left}>
           <img
@@ -210,11 +267,11 @@ const Project = () => {
           <div className={styled.box}>
             <p>
             AirGarage helps churches and small businesses generate extra funding and income by renting out their unused parking spaces
-              <p className={styled.blue} onClick={handleClick}>
+              <p className={styled.blue} onClick={() => setIsOpen4(true)}>
                 Read More
               </p>
             </p>
-            <Modal className={styled.background} isOpen={isOpen}>
+            <Modal className={styled.background} isOpen={isOpen4}>
               <h1>AirGarage</h1>
               <p>
               AirGarage helps churches and small businesses generate extra funding and income by renting out their unused parking spaces.
@@ -231,7 +288,7 @@ const Project = () => {
                 <br />
                 Roles & Responsibility: Make Navbar and Footer with responsive website.
               </p>
-              <button onClick={() => setIsOpen(false)} className={styled.btn}>
+              <button onClick={() => setIsOpen4(false)} className={styled.btn}>
                 Close
               </button>
             </Modal>
@@ -248,6 +305,62 @@ const Project = () => {
             <a
               className={styled.size}
               href="https://meeramendhe.github.io/Airgarage/"
+            >
+              <BiLink className={styled.size} />
+            </a>
+          </div>
+        </div>
+      </div>
+           {/* ------ project 6 */}
+      <div className={styled.width}>
+        <div className={styled.left}>
+          <img
+            className={styled.img}
+            src="https://www.aptiv.com/images/default-source/games/memory-game-share-image.png"
+            alt="logo"
+          />
+        </div>
+        <div className={styled.right}>
+          <h4 className={styled.color}>Featured</h4>
+          <h2>Memory Game</h2>
+          <div className={styled.box}>
+            <p>
+            Memory games give space to critical thinking and that helps children nurture their attention to detail.
+              <p className={styled.blue} onClick={() => setIsOpen5(true)}>
+                Read More
+              </p>
+            </p>
+            <Modal className={styled.background} isOpen={isOpen5}>
+              <h1>Mwmory Game</h1>
+              <p>
+Playing memory games can improve other brain functions, such as attention, concentration, and focus. Memory games give space to critical thinking and that helps children nurture their attention to detail. Memory games can improve visual recognition. ... A good short-term memory can improve a person's long-term memory too.
+              </p>
+              <p>
+                A website that allows users to solve any memory game
+                <h3>
+                  {' '}
+                  Tech Stack: React
+                </h3>
+                Solo Project was done in 1 days.
+                <br />
+              </p>
+              <button onClick={() => setIsOpen5(false)} className={styled.btn}>
+                Close
+              </button>
+            </Modal>
+          </div>
+          <h5>React</h5>
+          <div className={styled.flex}>
+            <a
+              className={styled.size}
+              href="https://github.com/MeeraMendhe/MemoryGame"
+            >
+              {' '}
+              <AiFillGithub className={styled.size} />
+            </a>
+            <a
+              className={styled.size}
+              href="memorygame27.herokuapp.com/"
             >
               <BiLink className={styled.size} />
             </a>
