@@ -72,7 +72,7 @@ const Project = () => {
             </a>
             <a
               className={styled.size}
-              href="https://clone-airbnb-green.vercel.app/"
+              href="https://airbnb-clone-mrv.vercel.app/"
             >
               <BiLink className={styled.size} />
             </a>
@@ -84,7 +84,7 @@ const Project = () => {
         <div className={styled.left}>
           <img
             className={styled.img}
-            src="https://shop.stepupstudent.com/wp-content/uploads/2020/05/linkedin-lead-ninja.jpg"
+            src="https://kinsta.com/wp-content/uploads/2018/09/linkedin-statistics.png"
             alt="logo"
           />
         </div>
